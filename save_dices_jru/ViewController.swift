@@ -23,7 +23,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         view.backgroundColor = .systemPink
-        
+        numberLabel.text = "abc"
         //讀取
         let content = UserDefaults.standard.integer(forKey: "diceNumber")
         numberLabel.text = String(content)
