@@ -22,7 +22,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.backgroundColor = .green
+        view.backgroundColor = .blue
         //讀取
         let content = UserDefaults.standard.integer(forKey: "diceNumber")
         numberLabel.text = String(content)
